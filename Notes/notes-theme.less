@@ -1,0 +1,216 @@
+  /***************************************************************************/
+  /* Fonts   */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Roboto-Slab-Regular.woff2) format('woff2');
+
+  }
+
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src:
+      url(roboto-slab-v9-latin-700.woff2) format('woff2');
+
+  }
+
+  /***************************************************************************/
+  /* Master: common to all layouts   */
+  .reveal {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto Slab";
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  /*********************************************
+ * HEADERS */
+  .reveal h1,
+  .reveal h2,
+  .reveal h3,
+  .reveal h4,
+  .reveal h5,
+  .reveal h6 {
+    font-family: "Roboto Slab";
+    line-height: 1.2;
+    letter-spacing: normal;
+
+    text-shadow: none;
+    word-wrap: break-word;
+  }
+
+  .reveal h1 {
+    font-size: 2.4em;
+  }
+
+  .reveal h2 {
+    font-size: 2em;
+  }
+
+  .reveal h3 {
+    font-size: 1.6em;
+  }
+
+  .reveal h4 {
+    font-size: 1.3em;
+  }
+
+
+/***************************************************************************/
+/* Code   */
+  .reveal pre {
+    display: block;
+    position: relative;
+    width: 94%;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 0.55em;
+    font-family: monospace;
+    line-height: 1.2em;
+    word-wrap: break-word;
+    background: #F5F5F5;
+    border-radius: 8px;
+    background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 60 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><circle cx="14.028" cy="12.645" r="6.465" style="fill:#ff5f56;"/><circle cx="33.542" cy="12.645" r="6.465" style="fill:#ffbd2e;"/><circle cx="52.982" cy="12.645" r="6.465" style="fill:#27c93f;"/></svg>');
+    padding: 33px 5px 5px 5px;
+    background-size: 100px 30px;
+    background-repeat: no-repeat;
+  }
+
+  .reveal code {
+    font-family: monospace;
+  }
+
+  .reveal pre code {
+    display: block;
+    padding: 35px 5px 5px 5px;
+  }
+
+  table {
+    margin-top: 0.5 em;
+  }
+/***************************************************************************/
+  /* blockquote */
+  .reveal blockquote {
+    display: block;
+    padding: 15px 20px 15px 70px;
+    margin: 1em 0 20px;
+    position: relative;
+    font-style: italic;
+    border-left-style: solid;
+    border-left-width: 10px;
+  }
+
+  .reveal blockquote::before {
+    content: "\201C";
+    /*Unicode for Left Double Quote*/
+
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+
+    /*Positioning*/
+    position: absolute;
+    left: 10px;
+    top: 5px;
+
+  }
+
+  .reveal blockquote::after {
+    /*Reset to make sure*/
+    content: "";
+  }
+
+  .reveal blockquote cite {
+    display: block;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/***************************************************************************/
+/* Layouts   */
+  @import "../Shared/theme-shared.less";
+
+  .reveal .backgrounds .title {
+    background-repeat: no-repeat;
+  }
+
+  .reveal .backgrounds .default {
+    background-repeat: no-repeat;
+  }
+
+  .reveal .sectiontitle .innercontent {
+    padding: 20px;
+  }
+
+  .reveal .innercontent {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reveal .title .innercontent {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .reveal .sectiontitle .innercontent,
+  .reveal .split .innercontent,
+  .reveal .keypoint .innercontent {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    justify-content: center;
+  }
+
+  .reveal h1,
+  .reveal h2 {
+    text-align: center;
+    align-self: flex-start;
+    padding: 1px 20px;
+    margin: 4px 0px;
+  }
+
+  .slidenumber {
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+  }
+
+  .split .slidenumber {
+    margin-left: 25%;
+  }
+
+  /***************** LeftImageColumns  ****/
+  .reveal .coverimg {
+    padding: 0px !important;
+  }
+
+  .reveal .coverimg img {
+    object-fit: cover;
+    height: 100%;
+  }
