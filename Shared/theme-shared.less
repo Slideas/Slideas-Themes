@@ -1,0 +1,146 @@
+/*
+Author: Slideas
+Description: Common theme style for themes based on the Slideas theme framework
+License: MIT
+Version: 1.0.0
+*/
+
+/*--------------------------------------------------------------
+Table of Contents:
+----------------------------------------------------------------
+General
+Footnotes
+Visualizations
+References (for future use)
+Lists
+Figures
+Code
+Table
+--------------------------------------------------------------*/
+
+/*********************************************************************/
+/* General  */
+.reveal .grid {
+  flex-grow: 1;
+}
+
+/*********************************************************************/
+/* Footnotes  */
+.reveal .footnotes {
+  width: 100%;
+}
+
+/*********************************************************************/
+/* Visualizations */
+.svg-graph {
+  max-width: 100%;
+}
+
+/*********************************************************************/
+/* References*/
+.reveal dt {
+  font-weight: bold;
+  display: block;
+  float: left;
+}
+
+.reveal dd {
+  text-indent: 0.5em;
+  padding-left: 28px;
+  padding-bottom: 1em;
+}
+
+/*********************************************************************/
+/* Lists */
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+ol>li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol>li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.6em;
+}
+
+li ol>li {
+  margin: 0;
+}
+
+li ol>li:before {
+  content: counters(item, ".") " ";
+}
+
+.reveal ol {
+  list-style: none;
+}
+
+.reveal ul {
+  list-style-position: inside;
+}
+
+.footnotes ol li::before {
+  content: none;
+}
+
+.reveal ul,
+ol {
+  list-style-position: inside
+}
+
+ul {
+  list-style: none;
+  padding-left: 1.25em;
+}
+
+.reveal ul ul,
+.reveal ol ul {
+  display: block;
+  margin-left: 1em;
+}
+
+/*********************************************************************/
+/* Figures */
+img {
+  max-width: 100%;
+}
+
+.reveal figure img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*********************************************************************/
+/* Code */
+.reveal pre {
+  word-wrap: break-word;
+  border-radius: 8px;
+  padding: 0.3em !important;
+}
+
+/*********************************************************************/
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table td,
+th,
+thead {
+  padding: 5px !important;
+}
+
+th {
+  font-weight: 600 !important;
+}

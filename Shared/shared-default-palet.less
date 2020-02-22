@@ -1,0 +1,449 @@
+/*
+Author: Slideas
+Description: Common palet style for themes based on the Slideas theme framework
+License: MIT
+Version: 1.0.0
+*/
+
+/*--------------------------------------------------------------
+Table of Contents:
+----------------------------------------------------------------
+General & Typography
+Iconfont
+Visualizations
+Billboard Graphs
+Highlight.js 
+--------------------------------------------------------------*/
+
+/*********************************************************************/
+/* General & Typography */
+.reveal .inverted a {
+    color: @light;
+}
+
+.reveal ol li::before {
+    color: @accent1;
+}
+
+.reveal .inverted ol li::before {
+    color: @light;
+}
+
+a {
+    color: @accent1;
+}
+
+.reveal blockquote:before {
+    color: @accent1;
+}
+
+/*********************************************************************/
+/* Icon font */
+.reveal .material-icons {
+    color: @accent1;
+}
+
+/*********************************************************************/
+/* Visualizations */
+.navigatorFrame {
+    fill: #dbdbdb;
+}
+
+.addressBar {
+    fill: #ffffff;
+}
+
+.trafficClose {
+    fill: #e68756;
+}
+
+.trafficMinimize {
+    fill: #e7b81b;
+}
+
+.trafficMaximize {
+    fill: #a1ca30;
+}
+
+.device {
+    fill: #8C96AF;
+    fill-rule: evenodd;
+  }
+  
+  .devicescreen {
+    fill: #FFFFFF;
+  }
+
+.reveal .deviceblock .insideblock {
+    background-color: @light;
+}
+
+.reveal .svg-graph .diagramblock .insideblock {
+    border: 3px solid @accent1;
+    background-color: @light;
+}
+
+.bgshape {
+    fill: none;
+    stroke: @accent2;
+    stroke-width: 4;
+    fill: @accent2;
+}
+
+.block {
+    fill: transparent;
+}
+
+.node text {
+    font: 18px;
+    fill: @light;
+    font-weight: bold;
+}
+
+.inverted .node text {
+    fill: @accent1;
+}
+
+
+.reveal svg .link {
+    fill: none;
+    stroke: @accent1;
+    stroke-width: 3px;
+}
+
+
+.inverted svg .link {
+    stroke: @light;
+}
+
+.level0 .box,
+.level1 .box {
+    stroke: @accent1;
+    stroke-width: 4;
+    fill: @accent1;
+}
+
+.inverted .level0 .box,
+.inverted .level1 .box {
+    stroke: @light;
+    fill: @light;
+}
+
+.level2 .box {
+    stroke: @accent1;
+    stroke-width: 4;
+    fill: @light;
+}
+
+.inverted .level2 .box {
+    stroke: @light;
+    fill: @accent1;
+}
+
+.level2 text,
+.level3 text {
+    fill: @accent1;
+}
+
+.inverted .level2 text,
+.inverted .level3 text {
+    fill: @light;
+}
+
+.level3 .box {
+    stroke: @light;
+    stroke-width: 4;
+    fill: @light;
+}
+
+.inverted .level3 .box {
+    stroke: @accent1;
+    fill: @accent1;
+}
+
+/*********************************************************************/
+/* Billboard Graphs*/
+
+.bb .domain,
+.bb .tick line {
+    stroke: @dark  !important;
+}
+
+.inverted .bb .domain,
+.bb .tick line {
+    stroke: @light  !important;
+}
+
+
+.bb-legend-item text,
+.bb-axis text {
+    fill: @dark  !important;
+}
+
+.inverted .bb-legend-item text,
+.inverted .bb-axis text {
+    fill: @light  !important;
+}
+
+.bb-bars-data0 path,
+.bb-area-data0,
+.bb-arc-data0 {
+    fill: @accent1  !important;
+    stroke: none !important;
+}
+
+.bb-lines-data0 path {
+    stroke-width: 4px !important;
+    stroke: @accent1  !important;
+    fill: none;
+}
+
+.bb-circles-data0 circle {
+    fill: @accent1  !important;
+    stroke: @accent1  !important;
+}
+
+.bb-legend-item-data0 line {
+    stroke: @accent1  !important;
+}
+
+/*  inverted background */
+.inverted .bb-bars-data0 path,
+.inverted .bb-area-data0,
+.inverted .bb-arc-data0 {
+    fill: @light  !important;
+}
+
+.inverted .bb-lines-data0 path {
+    stroke: @light  !important;
+}
+
+.inverted .bb-circles-data0 circle {
+    fill: @light  !important;
+    stroke: @light  !important;
+}
+
+.inverted .bb-legend-item-data0 line {
+    stroke: @light  !important;
+}
+
+.bb-bars-data1 path,
+.bb-area-data1,
+.bb-arc-data1 {
+    fill: @accent2  !important;
+    stroke: none !important;
+}
+
+.bb-lines-data1 path {
+    stroke-width: 4px !important;
+    stroke: @accent2  !important;
+    fill: none;
+}
+
+.bb-circles-data1 circle {
+    fill: @accent2  !important;
+    stroke: @accent2  !important;
+}
+
+.bb-legend-item-data1 line {
+    stroke: @accent2  !important;
+}
+
+.bb-bars-data2 path,
+.bb-area-data2,
+.bb-arc-data2 {
+    fill: @accent3  !important;
+    stroke: none !important;
+}
+
+.bb-lines-data2 path {
+    stroke-width: 4px !important;
+    stroke: @accent3  !important;
+    fill: none;
+}
+
+.bb-circles-data2 circle {
+    fill: @accent3  !important;
+    stroke: @accent3  !important;
+}
+
+.bb-legend-item-data2 line {
+    stroke: @accent3  !important;
+}
+
+.bb-bars-data3 path,
+.bb-area-data3,
+.bb-arc-data3 {
+    fill: @accent4  !important;
+    stroke: none !important;
+}
+
+.bb-lines-data3 path {
+    stroke-width: 4px !important;
+    stroke: @accent4  !important;
+    fill: none;
+}
+
+.bb-circles-data3 circle {
+    fill: @accent4  !important;
+    stroke: @accent4  !important;
+}
+
+.bb-legend-item-data3 line {
+    stroke: @accent4  !important;
+}
+
+.bb-bars-data4 path,
+.bb-area-data4,
+.bb-arc-data4 {
+    fill: @accent5  !important;
+    stroke: none !important;
+}
+
+.bb-lines-data4 path {
+    stroke-width: 4px !important;
+    stroke: @accent5  !important;
+    fill: none;
+}
+
+.bb-circles-data4 circle {
+    fill: @accent5  !important;
+    stroke: @accent5  !important;
+}
+
+.bb-legend-item-data4 line {
+    stroke: @accent5  !important;
+}
+
+.bb-bars-data5 path,
+.bb-area-data5,
+.bb-arc-data5 {
+    fill: @accent6  !important;
+    stroke: none !important;
+}
+
+.bb-lines-data5 path {
+    stroke-width: 4px !important;
+    stroke: @accent6  !important;
+    fill: none;
+}
+
+.bb-circles-data5 circle {
+    fill: @accent6  !important;
+    stroke: @accent6  !important;
+}
+
+.bb-legend-item-data5 line {
+    stroke: @accent6  !important;
+}
+
+/**************************/
+/* Highlight.js */
+
+.hljs {
+    font-family: monospace !important;
+    padding: 0.5em;
+    color: @dark;
+}
+
+.inverted .hljs {
+    color: @light;
+}
+
+.reveal .hljs-comment,
+.reveal .hljs-quote {
+    color: lighten(@dark2, 20%);
+    font-style: italic;
+}
+
+.reveal .inverted .hljs-comment,
+.reveal .inverted .hljs-quote {
+    color: darken(@light, 20%);
+    font-style: italic;
+}
+
+.reveal .hljs-keyword,
+.reveal .hljs-selector-tag,
+.reveal .hljs-subst {
+    color: @accent1;
+    font-weight: bold;
+}
+
+.reveal .inverted .hljs-keyword,
+.reveal .inverted .hljs-selector-tag,
+.reveal .inverted .hljs-subst {
+    color: @light;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+    color: @accent2
+}
+
+.hljs-string,
+.hljs-doctag {
+    color: @accent3;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+    color: @accent3;
+    font-weight: bold;
+}
+
+.hljs-subst {
+    font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+    color: @accent4;
+    font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+    color: @accent4;
+    font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+    color: @accent5;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+    color: @accent5;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+    color: @accent6;
+}
+
+.hljs-meta {
+    color: @dark2;
+    font-weight: bold;
+}
+
+.hljs-deletion {
+    background: #fdd;
+}
+
+.hljs-addition {
+    background: #dfd;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}
