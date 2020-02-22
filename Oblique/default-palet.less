@@ -1,0 +1,171 @@
+@import "../Shared/shared-default-palet.less";
+
+.reveal h2 {
+  color: @dark2;
+}
+
+.reveal .inverted h2 {
+  color: @light;
+}
+
+.reveal .backgrounds {
+  background-color: @light;
+}
+
+.reveal {
+  color: @dark;
+}
+
+.reveal .inverted {
+  color: @light;
+}
+
+/* Lists */
+.reveal ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="@{accent1}"  width="10" height="10" rx="5" ry="5"/></svg>');
+}
+
+.reveal ul ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="@{accent1}"  width="10" height="10" rx="0" ry="0"/></svg>');
+}
+
+.reveal ul ul ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="11px" height="14px"><title>Bullet</title><rect stroke="@{accent1}" fill-opacity="0.0" width="10" height="10" rx="5" ry="5"/></svg>');
+}
+
+
+.reveal .inverted ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="@{light}"  width="10" height="10" rx="5" ry="5"/></svg>');
+}
+
+.reveal .inverted ul ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="@{light}"  width="10" height="10" rx="0" ry="0"/></svg>');
+}
+
+.reveal .inverted ul ul ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="11px" height="14px"><title>Bullet</title><rect stroke="@{light}" fill-opacity="0.0" width="10" height="10" rx="5" ry="5"/></svg>');
+}
+
+.reveal ol li::before {
+  color: @accent1;
+}
+
+.reveal .darkbg ol li::before {
+  color: @light;
+}
+
+
+.reveal ol li::before {
+  color: @accent1;
+}
+
+.reveal .darkbg ol li::before {
+  color: @light;
+}
+
+
+a {
+  color: @dark;
+}
+
+/* Blockquote */
+.reveal blockquote {
+  border-left-color: @accent1;
+}
+
+.reveal blockquote:before {
+  color: @accent1;
+}
+
+.reveal .inverted blockquote {
+  border-left-color: @light;
+}
+
+.reveal .svgicon {
+  stroke: @accent1;
+}
+
+.reveal pre {
+  border: 1px solid #CCC;
+}
+
+table td,
+th,
+thead {
+  border: 1px solid @accent1  !important;
+
+}
+
+.inverted table td,
+.inverted th,
+.inverted thead {
+  border: 1px solid @light  !important;
+
+}
+
+thead {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+tr:nth-child(even)>td {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+tr>td {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  color: @dark;
+}
+
+.inverted tr>td {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  color: @light;
+}
+
+th {
+  background-color: @accent1;
+  color: @light;
+}
+
+.inverted th {
+  background-color: @light;
+  color: @accent1;
+}
+
+.reveal .default .oblique {
+  background-color: @accent1;
+}
+
+.reveal .title {
+  background-color: @accent1;
+}
+
+.title .oblique {
+  background-color: @light;
+}
+
+
+.reveal .split .slidenumber {
+  color: @light;
+}
+
+.reveal h1 {
+  color: @accent1;
+}
+
+.reveal .inverted h1 {
+  color: @light;
+}
+
+.reveal .keypoint h2 {
+  color: @light;
+}
+
+.reveal .title .innercontent,
+.reveal .sectiontitle .innercontent,
+.reveal .colored {
+  background-color: @accent1;
+}
+
+.reveal .keypoint {
+  background-color: @dark;
+}
