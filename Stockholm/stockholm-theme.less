@@ -1,0 +1,248 @@
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("Inter-upright.var.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url("Inter-italic.var.woff2") format("woff2");
+}
+
+
+/***************************************************************************/
+/* Master: common to all layouts   */
+.reveal {
+  line-height: 1;
+  /*Sometimes fonts don't display optimally on all devices*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter var";
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+/*********************************************
+ * HEADERS */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  /*margin: 0 0 20px 0;*/
+  font-family: "Inter var";
+  line-height: 1.2;
+  letter-spacing: normal;
+  /*text-transform: uppercase;*/
+  text-shadow: none;
+  word-wrap: break-word;
+}
+
+.reveal h1 {
+  font-size: 2.4em;
+  text-align:center;
+}
+
+.reveal h2 {
+  font-size: 2em;
+}
+
+.reveal h3 {
+  font-size: 1.6em;
+}
+
+.reveal h4 {
+  font-size: 1.3em;
+}
+
+
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 94%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  //box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  background: #F5F5F5;
+  border-radius: 8px;
+  background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 60 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><circle cx="14.028" cy="12.645" r="6.465" style="fill:#ff5f56;"/><circle cx="33.542" cy="12.645" r="6.465" style="fill:#ffbd2e;"/><circle cx="52.982" cy="12.645" r="6.465" style="fill:#27c93f;"/></svg>');
+  padding: 33px 5px 5px 5px;
+  background-size: 100px 30px;
+  background-repeat: no-repeat;
+}
+
+.reveal code {
+  font-family: monospace;
+}
+
+.reveal pre code {
+  display: block;
+  padding: 35px 5px 5px 5px;
+  /*overflow: auto;
+  max-height: 400px;*/
+  /*word-wrap: normal; */
+}
+
+table {
+  margin-top: 0.5 em;
+}
+
+/* blockquote */
+.reveal blockquote{
+  display:block;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  font-style: italic;
+  border-left-style: solid;
+  border-left-width: 10px;
+}
+
+.reveal blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+  
+}
+
+.reveal blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+.reveal blockquote cite{
+  display: block;
+  font-weight: 700;
+  font-style: normal;
+} 
+
+/********************************** Layouts */
+@import "../Shared/theme-shared.less";
+
+.reveal .backgrounds .title {
+  //background-color: #fbcdbe;
+  //background-image: url(frame-loop.svg) ;
+  /*background-size: 920px 660px;*/
+  background-repeat: no-repeat;
+
+}
+
+.reveal .backgrounds .default {
+  //background-color: #fff;
+  //background-image: url(frame-loop-salmon.svg) ;
+  /*background-size: 920px 660px;*/
+  background-repeat: no-repeat;
+}
+
+.reveal .default h1,
+.reveal .default h1 {
+  //color:#fbcdbe;
+}
+
+
+.reveal .title {}
+
+.reveal .innercontent {
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reveal .title .innercontent {
+  margin: auto;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+
+.reveal .split .innercontent,
+.reveal .keypoint .innercontent {
+  //display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  //color:#7c7f91;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+
+.reveal .sectiontitle .innercontent{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-right: 150px;
+  margin-left: 150px;
+  //color:#7c7f91;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+
+
+.reveal .title h1,
+.reveal .title h2,
+.reveal .sectiontitle .innercontent h1,
+.reveal .sectiontitle .innercontent h2 {
+  text-align: center;
+}
+
+
+.reveal figure img {
+  //border-radius:50%
+}
+
+.slidenumber {
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+  position: absolute;
+}
+
+/***************** LeftImageColumns  ****/
+.reveal .coverimg {
+  padding: 0px !important;
+}
+
+.reveal .coverimg img {
+  object-fit: cover;
+  height: 100%;
+}
