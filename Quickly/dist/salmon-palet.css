@@ -1,0 +1,431 @@
+/*
+Author: Slideas
+Description: Common palet style for themes based on the Slideas theme framework
+License: MIT
+Version: 1.0.0
+*/
+/*--------------------------------------------------------------
+Table of Contents:
+----------------------------------------------------------------
+General & Typography
+Iconfont
+Visualizations
+Billboard Graphs
+Highlight.js 
+--------------------------------------------------------------*/
+/*********************************************************************/
+/* General & Typography */
+.reveal .inverted a {
+  color: #fff;
+}
+.reveal ol li::before {
+  color: #fbcdbe;
+}
+.reveal .inverted ol li::before {
+  color: #fff;
+}
+a {
+  color: #fbcdbe;
+}
+.reveal blockquote:before {
+  color: #fbcdbe;
+}
+/*********************************************************************/
+/* Icon font */
+.reveal .material-icons {
+  color: #fbcdbe;
+}
+/*********************************************************************/
+/* Visualizations */
+.navigatorFrame {
+  fill: #dbdbdb;
+}
+.addressBar {
+  fill: #ffffff;
+}
+.trafficClose {
+  fill: #e68756;
+}
+.trafficMinimize {
+  fill: #e7b81b;
+}
+.trafficMaximize {
+  fill: #a1ca30;
+}
+.device {
+  fill: #8C96AF;
+  fill-rule: evenodd;
+}
+.devicescreen {
+  fill: #FFFFFF;
+}
+.reveal .deviceblock .insideblock {
+  background-color: #fff;
+}
+.reveal .svg-graph .diagramblock .insideblock {
+  border: 3px solid #fbcdbe;
+  background-color: #fff;
+}
+.bgshape {
+  fill: none;
+  stroke: #added4;
+  stroke-width: 4;
+  fill: #added4;
+}
+.block {
+  fill: transparent;
+}
+.node text {
+  font: 18px;
+  fill: #fff;
+  font-weight: bold;
+}
+.inverted .node text {
+  fill: #fbcdbe;
+}
+.reveal svg .link {
+  fill: none;
+  stroke: #fbcdbe;
+  stroke-width: 3px;
+}
+.inverted svg .link {
+  stroke: #fff;
+}
+.level0 .box,
+.level1 .box {
+  stroke: #fbcdbe;
+  stroke-width: 4;
+  fill: #fbcdbe;
+}
+.inverted .level0 .box,
+.inverted .level1 .box {
+  stroke: #fff;
+  fill: #fff;
+}
+.level2 .box {
+  stroke: #fbcdbe;
+  stroke-width: 4;
+  fill: #fff;
+}
+.inverted .level2 .box {
+  stroke: #fff;
+  fill: #fbcdbe;
+}
+.level2 text,
+.level3 text {
+  fill: #fbcdbe;
+}
+.inverted .level2 text,
+.inverted .level3 text {
+  fill: #fff;
+}
+.level3 .box {
+  stroke: #fff;
+  stroke-width: 4;
+  fill: #fff;
+}
+.inverted .level3 .box {
+  stroke: #fbcdbe;
+  fill: #fbcdbe;
+}
+/*********************************************************************/
+/* Billboard Graphs*/
+.bb .domain,
+.bb .tick line {
+  stroke: #7c7f91 !important;
+}
+.inverted .bb .domain,
+.bb .tick line {
+  stroke: #fff !important;
+}
+.bb-legend-item text,
+.bb-axis text {
+  fill: #7c7f91 !important;
+}
+.inverted .bb-legend-item text,
+.inverted .bb-axis text {
+  fill: #fff !important;
+}
+.bb-bars-data0 path,
+.bb-area-data0,
+.bb-arc-data0 {
+  fill: #fbcdbe !important;
+  stroke: none !important;
+}
+.bb-lines-data0 path {
+  stroke-width: 4px !important;
+  stroke: #fbcdbe !important;
+  fill: none;
+}
+.bb-circles-data0 circle {
+  fill: #fbcdbe !important;
+  stroke: #fbcdbe !important;
+}
+.bb-legend-item-data0 line {
+  stroke: #fbcdbe !important;
+}
+/*  inverted background */
+.inverted .bb-bars-data0 path,
+.inverted .bb-area-data0,
+.inverted .bb-arc-data0 {
+  fill: #fff !important;
+}
+.inverted .bb-lines-data0 path {
+  stroke: #fff !important;
+}
+.inverted .bb-circles-data0 circle {
+  fill: #fff !important;
+  stroke: #fff !important;
+}
+.inverted .bb-legend-item-data0 line {
+  stroke: #fff !important;
+}
+.bb-bars-data1 path,
+.bb-area-data1,
+.bb-arc-data1 {
+  fill: #added4 !important;
+  stroke: none !important;
+}
+.bb-lines-data1 path {
+  stroke-width: 4px !important;
+  stroke: #added4 !important;
+  fill: none;
+}
+.bb-circles-data1 circle {
+  fill: #added4 !important;
+  stroke: #added4 !important;
+}
+.bb-legend-item-data1 line {
+  stroke: #added4 !important;
+}
+.bb-bars-data2 path,
+.bb-area-data2,
+.bb-arc-data2 {
+  fill: #cdbcd5 !important;
+  stroke: none !important;
+}
+.bb-lines-data2 path {
+  stroke-width: 4px !important;
+  stroke: #cdbcd5 !important;
+  fill: none;
+}
+.bb-circles-data2 circle {
+  fill: #cdbcd5 !important;
+  stroke: #cdbcd5 !important;
+}
+.bb-legend-item-data2 line {
+  stroke: #cdbcd5 !important;
+}
+.bb-bars-data3 path,
+.bb-area-data3,
+.bb-arc-data3 {
+  fill: #c9e4b4 !important;
+  stroke: none !important;
+}
+.bb-lines-data3 path {
+  stroke-width: 4px !important;
+  stroke: #c9e4b4 !important;
+  fill: none;
+}
+.bb-circles-data3 circle {
+  fill: #c9e4b4 !important;
+  stroke: #c9e4b4 !important;
+}
+.bb-legend-item-data3 line {
+  stroke: #c9e4b4 !important;
+}
+.bb-bars-data4 path,
+.bb-area-data4,
+.bb-arc-data4 {
+  fill: #c3ced9 !important;
+  stroke: none !important;
+}
+.bb-lines-data4 path {
+  stroke-width: 4px !important;
+  stroke: #c3ced9 !important;
+  fill: none;
+}
+.bb-circles-data4 circle {
+  fill: #c3ced9 !important;
+  stroke: #c3ced9 !important;
+}
+.bb-legend-item-data4 line {
+  stroke: #c3ced9 !important;
+}
+.bb-bars-data5 path,
+.bb-area-data5,
+.bb-arc-data5 {
+  fill: #dbbde5 !important;
+  stroke: none !important;
+}
+.bb-lines-data5 path {
+  stroke-width: 4px !important;
+  stroke: #dbbde5 !important;
+  fill: none;
+}
+.bb-circles-data5 circle {
+  fill: #dbbde5 !important;
+  stroke: #dbbde5 !important;
+}
+.bb-legend-item-data5 line {
+  stroke: #dbbde5 !important;
+}
+/**************************/
+/* Highlight.js */
+.hljs {
+  font-family: monospace !important;
+  padding: 0.5em;
+  color: #7c7f91;
+}
+.inverted .hljs {
+  color: #fff;
+}
+.reveal .hljs-comment,
+.reveal .hljs-quote {
+  color: #ffffff;
+  font-style: italic;
+}
+.reveal .inverted .hljs-comment,
+.reveal .inverted .hljs-quote {
+  color: #cccccc;
+  font-style: italic;
+}
+.reveal .hljs-keyword,
+.reveal .hljs-selector-tag,
+.reveal .hljs-subst {
+  color: #fbcdbe;
+  font-weight: bold;
+}
+.reveal .inverted .hljs-keyword,
+.reveal .inverted .hljs-selector-tag,
+.reveal .inverted .hljs-subst {
+  color: #fff;
+}
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #added4;
+}
+.hljs-string,
+.hljs-doctag {
+  color: #cdbcd5;
+}
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #cdbcd5;
+  font-weight: bold;
+}
+.hljs-subst {
+  font-weight: normal;
+}
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #c9e4b4;
+  font-weight: bold;
+}
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #c9e4b4;
+  font-weight: normal;
+}
+.hljs-regexp,
+.hljs-link {
+  color: #c3ced9;
+}
+.hljs-symbol,
+.hljs-bullet {
+  color: #c3ced9;
+}
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #dbbde5;
+}
+.hljs-meta {
+  color: #c3ced9;
+  font-weight: bold;
+}
+.hljs-deletion {
+  background: #fdd;
+}
+.hljs-addition {
+  background: #dfd;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}
+.reveal .backgrounds {
+  background-color: #fff;
+}
+.reveal {
+  color: #7c7f91;
+}
+/* Lists */
+.reveal ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="#fbcdbe"  width="10" height="10" rx="5" ry="5"/></svg>');
+}
+.reveal ul ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="#fbcdbe"  width="10" height="10" rx="0" ry="0"/></svg>');
+}
+.reveal ul ul ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="11px" height="14px"><title>Bullet</title><rect stroke="#fbcdbe" fill-opacity="0.0" width="10" height="10" rx="5" ry="5"/></svg>');
+}
+.reveal .darkbg ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="#fff"  width="10" height="10" rx="5" ry="5"/></svg>');
+}
+.reveal .darkbg ul ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="#fff"  width="10" height="10" rx="0" ry="0"/></svg>');
+}
+.reveal .darkbg ul ul ul {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="11px" height="14px"><title>Bullet</title><rect stroke="#fff" fill-opacity="0.0" width="10" height="10" rx="5" ry="5"/></svg>');
+}
+.reveal ol li::before {
+  color: #fbcdbe;
+}
+.reveal .darkbg ol li::before {
+  color: #fff;
+}
+a {
+  color: #7c7f91;
+}
+.reveal blockquote:before {
+  color: #fbcdbe;
+}
+.reveal .svgicon {
+  stroke: #fbcdbe;
+}
+.reveal pre {
+  border: 1px solid #CCC;
+}
+table td,
+th,
+thead {
+  border: 1px solid #fbcdbe !important;
+  color: #7c7f91;
+}
+thead {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+tr:nth-child(even) > td {
+  background: rgba(0, 0, 0, 0.1);
+}
+tr > td {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+th {
+  background-color: #fbcdbe;
+}
+.reveal .backgrounds .title {
+  background-color: #fbcdbe;
+  background-image: url(frame-loop.svg);
+}
+.reveal .backgrounds .default {
+  background-color: #fff;
+  background-image: url(frame-loop-salmon.svg);
+}

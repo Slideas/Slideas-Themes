@@ -1,0 +1,93 @@
+{
+    "Name": "Quickly",
+    "Version": 1.0,
+    "Author": "Slidescarnival & Slideas",
+    "Description": "A Theme with sketchy borders",
+    "Template": "Theme: Quickly\n---\n\n# Title",
+    "Css": "quickly-theme.css",
+    "Palets": [
+        {
+            "Name": "Aqua",
+            "Css": "aqua-palet.css",
+            "Dark1": "#7c7f91",
+            "Dark2": "#c3ced9",
+            "Light1": "#ffffff",
+            "Light2": "#eeeeee",
+            "Accent2": "#fbcdbe",
+            "Accent1": "#added4",
+            "Accent3": "#cdbcd5",
+            "Accent4": "#c9e4b4",
+            "Accent5": "#c3ced9",
+            "Accent6": "#dbbde5"
+        },
+        {
+            "Name": "Sky",
+            "Css": "sky-palet.css",
+            "Dark1": "#7c7f91",
+            "Dark2": "#c3ced9",
+            "Light1": "#ffffff",
+            "Light2": "#eeeeee",
+            "Accent1": "#b5d4e9",
+            "Accent2": "#added4",
+            "Accent3": "#cdbcd5",
+            "Accent4": "#c9e4b4",
+            "Accent5": "#c3ced9",
+            "Accent6": "#dbbde5"
+        },
+        {
+            "Name": "Salmon",
+            "Css": "salmon-palet.css",
+            "Dark1": "#7c7f91",
+            "Dark2": "#c3ced9",
+            "Light1": "#ffffff",
+            "Light2": "#eeeeee",
+            "Accent1": "#fbcdbe",
+            "Accent2": "#added4",
+            "Accent3": "#cdbcd5",
+            "Accent4": "#c9e4b4",
+            "Accent5": "#c3ced9",
+            "Accent6": "#dbbde5"
+        }
+    ],
+    "Layouts": [
+        {
+            "Name": "Default",
+            "Group": "Basic",
+            "Snippet": "# Blank slide",
+            "Classes": "default",
+            "Dynamic": false,
+            "DynamicPart": "",
+            "Example": "Layout: Default\n\n# Title\n\nWith some **content**\n\n",
+            "FixedParts": 1,
+            "Template": "<div class = \"innercontent\" ><div class=\"grid\"><div data-slide-fit=\"fit\" class=\"column\"> {@{content}@} </div></div><div class=\"footnotes\">{@{footnotes}@}</div></div><div class=\"oblique\"></div><div class=\"slidenumber\">{@{FOOTER}@}</div>",
+            "ThumbnailTemplate": "<div class = \"innercontent\" data-slide-fit=\"fit\"><h1>Title</h1> And content...</div><div class=\"slidenumber\">1</div>   >",
+            "Icon": ""
+        },
+        {
+            "Name": "Title",
+            "Group": "Basic",
+            "Snippet": "# Blank slide",
+            "Classes": "title aligncenter",
+            "Dynamic": false,
+            "DynamicPart": "",
+            "Example": "Layout: Title\n\n# Title\n## Level 2 title\n\n",
+            "FixedParts": 1,
+            "Template": " <div class = \"innercontent inverted\" data-slide-fit=\"fit\">{@{content}@}</div> ",
+            "ThumbnailTemplate": " <div class = \"innercontent inverted\" data-slide-fit=\"fit\"><h1>Title</h1><h2>SubTitle</h2></div>     ",
+            "Icon": ""
+        },
+        {
+            "Name": "HeaderAndColumns",
+            "Group": "Basic",
+            "Snippet": "# Blank slide",
+            "Classes": "titleandcolumns default",
+            "Dynamic": true,
+            "FixedParts": 1,
+            "Example": "Layout: HeaderAndColumns\n\n# Title\n+++\n### Column1\n+++\n### Column2\n+++\n### Column3\n\n",
+            "DynamicPart": "<div class=\"column txtfit\"  data-slide-fit=\"fit\"> {@{content}@} </div>",
+            "Template": "<div class = \"innercontent\"><div class=\"titleframe\"> {@{content}@} </div> <div class=\"grid\">{@{dynamic}@}</div><div class=\"footnotes\">{@{footnotes}@}</div></div><div class=\"slidenumber\">{@{FOOTER}@}</div>",
+            "ThumbnailTemplate": "<div class = \"innercontent\"><div class=\"titleframe\"> <h1>Title</h1 </div> <div class=\"grid\"><div class=\"column\"  data-slide-fit=\"fit\"> <h2>Column 1</h2> </div><div class=\"column\"  data-slide-fit=\"fit\"> <h2>Column 2</h2> </div></div></div><div class=\"slidenumber\">1</div>",
+            "Icon": ""
+        }
+    ]
+}

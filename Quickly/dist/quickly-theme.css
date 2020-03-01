@@ -1,0 +1,384 @@
+/***************************************************************************/
+/* Fonts   */
+/* latin-ext */
+@font-face {
+  font-family: 'Amatic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Amatic-Regular-Ext.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Amatic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Amatic-Regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Amatic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(Amatic-Bold-Ext.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Amatic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(Amatic-Bold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/************************ MULI ******************/
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 400;
+  src: url(Muli-Italic-Ext.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 400;
+  src: url(Muli-Italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 700;
+  src: url(Muli-BoldItalic-Ext.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 700;
+  src: url(Muli-BoldItalic.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Muli-Regular-Ext.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Muli-Regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 700;
+  src: url(Muli-Bold-Ext.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 700;
+  src: url(Muli-Bold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/***************************************************************************/
+/* Master: common to all layouts   */
+.reveal {
+  line-height: 1;
+  /*Sometimes fonts don't display optimally on all devices*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+  -webkit-font-smoothing: antialiased;
+  font-family: "Muli";
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.4;
+}
+/*********************************************
+ * HEADERS */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Amatic";
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-shadow: none;
+  word-wrap: break-word;
+}
+.reveal h1 {
+  font-size: 2.4em;
+}
+.reveal h2 {
+  font-size: 2em;
+}
+.reveal h3 {
+  font-size: 1.6em;
+}
+.reveal h4 {
+  font-size: 1.3em;
+}
+h1,
+h2 {
+  Text-align: center;
+}
+.reveal figure img {
+  border-radius: 50%;
+}
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 94%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  border-radius: 8px;
+  background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 60 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><circle cx="14.028" cy="12.645" r="6.465" style="fill:#ff5f56;"/><circle cx="33.542" cy="12.645" r="6.465" style="fill:#ffbd2e;"/><circle cx="52.982" cy="12.645" r="6.465" style="fill:#27c93f;"/></svg>');
+  padding: 33px 5px 5px 5px;
+  background-size: 100px 30px;
+  background-repeat: no-repeat;
+}
+.reveal code {
+  font-family: monospace;
+}
+.reveal pre code {
+  display: block;
+  padding: 35px 5px 5px 5px;
+}
+table {
+  margin-top: 0.5 em;
+}
+/* blockquote */
+.reveal blockquote {
+  display: block;
+  padding: 15px 20px 15px 75px;
+  margin: 0 0 20px;
+  position: relative;
+  font-style: italic;
+  border-left-style: solid;
+  border-left-width: 10px;
+}
+.reveal blockquote::before {
+  content: "\201C";
+  /*Unicode for Left Double Quote*/
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+.reveal blockquote::after {
+  /*Reset to make sure*/
+  content: "";
+}
+.reveal blockquote cite {
+  display: block;
+  font-weight: 700;
+  font-style: normal;
+}
+/********************************** Layouts */
+/*
+Author: Slideas
+Description: Common theme style for themes based on the Slideas theme framework
+License: MIT
+Version: 1.0.0
+*/
+/*--------------------------------------------------------------
+Table of Contents:
+----------------------------------------------------------------
+General
+Footnotes
+Visualizations
+References (for future use)
+Lists
+Figures
+Code
+Table
+--------------------------------------------------------------*/
+/*********************************************************************/
+/* General  */
+.reveal .grid {
+  flex-grow: 1;
+}
+/*********************************************************************/
+/* Footnotes  */
+.reveal .footnotes {
+  width: 100%;
+}
+/*********************************************************************/
+/* Visualizations */
+.svg-graph {
+  max-width: 100%;
+}
+/*********************************************************************/
+/* References*/
+.reveal dt {
+  font-weight: bold;
+  display: block;
+  float: left;
+}
+.reveal dd {
+  text-indent: 0.5em;
+  padding-left: 28px;
+  padding-bottom: 1em;
+}
+/*********************************************************************/
+/* Lists */
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+ol > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.6em;
+}
+li ol > li {
+  margin: 0;
+}
+li ol > li:before {
+  content: counters(item, ".") " ";
+}
+.reveal ol {
+  list-style: none;
+}
+.reveal ul {
+  list-style-position: inside;
+}
+.footnotes ol li::before {
+  content: none;
+}
+.reveal ul,
+ol {
+  list-style-position: inside;
+}
+ul {
+  list-style: none;
+  padding-left: 1.25em;
+}
+.reveal ul ul,
+.reveal ol ul {
+  display: block;
+  margin-left: 1em;
+}
+/*********************************************************************/
+/* Figures */
+img {
+  max-width: 100%;
+}
+.reveal figure img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*********************************************************************/
+/* Code */
+.reveal pre {
+  word-wrap: break-word;
+  border-radius: 8px;
+  padding: 0.3em !important;
+}
+/*********************************************************************/
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table td,
+th,
+thead {
+  padding: 5px !important;
+}
+th {
+  font-weight: 600 !important;
+}
+.reveal .backgrounds .title,
+.reveal .backgrounds .default {
+  background-repeat: no-repeat;
+}
+.reveal .slide-background {
+  background-size: 100% 100%;
+}
+.reveal .innercontent {
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-right: 50px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.reveal .title .innercontent {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 25%;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+.reveal .title .innercontent {
+  padding: 50px;
+}
+.reveal .title .innercontent {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+.reveal .title h1,
+.reveal .title h2,
+.reveal .title .innercontent h1,
+.reveal .title .innercontent h2 {
+  text-align: center;
+}
+.reveal p img {
+  border-radius: 50%;
+}
+.slidenumber {
+  width: 100%;
+  text-align: center;
+  bottom: 35px;
+  position: absolute;
+}
