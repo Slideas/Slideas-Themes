@@ -1,0 +1,55 @@
+{
+    "Name": "Reveal",
+    "Version": 1.0,
+    "Author": "Reveal.js",
+    "Description": "Minimalistic and clean theme",
+    "Css": "reveal-theme.css",
+    "Palets": [
+        {
+            "Name": "Black",
+            "Css": "black-palet.css",
+            "Dark1": "#000000",
+            "Light1": "#ffffff",
+            "Dark2": "#666666",
+            "Light2": "#dddddd",
+            "Accent1": "#DD3556",
+            "Accent2": "#E36151",
+            "Accent3": "#B7ACA1"
+        },
+        {
+            "Name": "White",
+            "Css": "white-palet.css",
+            "Dark1": "#000000",
+            "Light1": "#ffffff",
+            "Dark2": "#666666",
+            "Light2": "#dddddd",
+            "Accent1": "#DD3556",
+            "Accent2": "#E36151",
+            "Accent3": "#B7ACA1"
+        },
+        {
+            "Name": "Serif",
+            "Css": "serif-palet.css",
+            "Dark1": "#000000",
+            "Light1": "#ffffff",
+            "Dark2": "#666666",
+            "Light2": "#dddddd",
+            "Accent1": "#DD3556",
+            "Accent2": "#E36151",
+            "Accent3": "#B7ACA1"
+        }
+    ],
+    "Layouts": [
+        {
+            "Name": "Default",
+            "Group": "Basic",
+            "Classes": "default",
+            "Dynamic": false,
+            "DynamicPart": "",
+            "Example": "Layout: Default\n\n# Title\n\nWith some **content**\n\n",
+            "FixedParts": 1,
+            "Template": "<div class = \"innercontent\" data-slide-fit=\"fit\">{@{content}@}<div class=\"footnotes\">{@{footnotes}@}</div></div><div class=\"slidenumber\">{@{FOOTER}@}</div>",
+            "ThumbnailTemplate": "<div class = \"innercontent\" data-slide-fit=\"fit\"><h1>Title</h1> And content...</div><div class=\"slidenumber\">1</div>   >",
+        }
+    ]
+}

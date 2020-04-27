@@ -1,0 +1,62 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "mixins.less";
+@import "settings.less";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import "source-sans-pro.css";
+
+
+// Override theme settings (see ../template/settings.scss)
+@backgroundColor: #fff;
+
+@mainColor: #222;
+@headingColor: #222;
+
+@mainFontSize: 42px;
+@mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+@headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+@headingTextShadow: none;
+@headingLetterSpacing: normal;
+@headingTextTransform: uppercase;
+@headingFontWeight: 600;
+@linkColor: #2a76dd;
+@linkColorHover: lighten( @linkColor, 15% );
+@selectionBackgroundColor: lighten( @linkColor, 25% );
+
+@heading1Size: 2.5em;
+@heading2Size: 1.6em;
+@heading3Size: 1.3em;
+@heading4Size: 1.0em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+
+@accent1: #ff6188;
+@accent2: #fc9867;
+@accent3: #ffd866;
+@accent4: #a9dc76;
+@accent5: #78dce8;
+@accent6: #ab9df2;
+@dark: #222;
+@dark2: #222;
+@light: #FFF;
+@light2: #666;
+
+// Theme template ------------------------------
+@import "theme.less";
+// ---------------------------------------------
+
+@import "../Shared/shared-default-palet.less";
