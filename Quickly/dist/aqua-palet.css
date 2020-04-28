@@ -14,6 +14,8 @@ Billboard Graphs
 Highlight.js 
 --------------------------------------------------------------*/
 /*********************************************************************/
+/* Helper variables */
+/*********************************************************************/
 /* General & Typography */
 .reveal .inverted a {
   color: #fff;
@@ -368,22 +370,22 @@ a {
 }
 /* Lists */
 .reveal ul {
-  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="#added4"  width="10" height="10" rx="5" ry="5"/></svg>');
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="%23added4"  width="10" height="10" rx="5" ry="5"/></svg>');
 }
 .reveal ul ul {
-  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="#added4"  width="10" height="10" rx="0" ry="0"/></svg>');
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="%23added4"  width="10" height="10" rx="0" ry="0"/></svg>');
 }
 .reveal ul ul ul {
-  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="11px" height="14px"><title>Bullet</title><rect stroke="#added4" fill-opacity="0.0" width="10" height="10" rx="5" ry="5"/></svg>');
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="11px" height="14px"><title>Bullet</title><rect stroke="%23added4" fill-opacity="0.0" width="10" height="10" rx="5" ry="5"/></svg>');
 }
 .reveal .darkbg ul {
-  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="#fff"  width="10" height="10" rx="5" ry="5"/></svg>');
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="%23fff"  width="10" height="10" rx="5" ry="5"/></svg>');
 }
 .reveal .darkbg ul ul {
-  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="#fff"  width="10" height="10" rx="0" ry="0"/></svg>');
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10px" height="14px"><title>Bullet</title><rect fill="%23fff"  width="10" height="10" rx="0" ry="0"/></svg>');
 }
 .reveal .darkbg ul ul ul {
-  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="11px" height="14px"><title>Bullet</title><rect stroke="#fff" fill-opacity="0.0" width="10" height="10" rx="5" ry="5"/></svg>');
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="11px" height="14px"><title>Bullet</title><rect stroke="%23fff" fill-opacity="0.0" width="10" height="10" rx="5" ry="5"/></svg>');
 }
 .reveal ol li::before {
   color: #added4;
